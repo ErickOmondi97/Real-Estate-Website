@@ -38,6 +38,8 @@ header {
   display: flex;
 }
 .navbar a {
+  display: inline-flex;
+  width: 100%;
   padding: 10px 25px;
   font-size: 1.1rem;
   font-weight: 400;

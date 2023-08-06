@@ -42,6 +42,8 @@ header {
   display: flex;
 
   a {
+   display: inline-flex;
+   width: 100%;
    padding: 10px 25px;
    font-size: $p-font;
    font-weight: 400;
