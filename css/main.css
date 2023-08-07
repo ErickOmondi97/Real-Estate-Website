@@ -81,6 +81,9 @@ section {
   align-items: center;
   gap: 4.5rem;
 }
+.home img {
+  width: 100%;
+}
 .home-text h1 {
   font-size: 5rem;
   line-height: 1.2;
@@ -97,6 +100,13 @@ section {
   position: relative;
   width: 410px;
   max-width: 100%;
+}
+.h-search form input:first-child {
+  display: inline-block;
+  width: 100%;
+  padding: 17px 130px 16px 15px;
+  border: 2px solid #1aa090;
+  border: 0.7rem;
 }
 
 * {

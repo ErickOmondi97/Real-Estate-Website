@@ -11,6 +11,10 @@ section {
   align-items: center;
   gap: 4.5rem;
 
+  img {
+    width: 100%;
+  }
+
   &-text {
     h1{
       font-size: $h1-font;
@@ -31,4 +35,14 @@ section {
   position: relative;
   width: 410px;
   max-width: 100%;
+
+  input {
+    &:first-child {
+      display: inline-block;
+      width: 100%;
+      padding: 17px 130px 16px 15px;
+      border: 2px solid $main-color;
+      border: 0.7rem;
+    }
+  }
 }
