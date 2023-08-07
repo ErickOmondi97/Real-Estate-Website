@@ -12,3 +12,11 @@ $other-color: #d6d6d6;
 @mixin transition-ease {
   transition: all 0.5s ease;
 }
+
+$font-weights: (
+  "small": 300,
+  "regular": 400,
+  "medium": 500,
+  "large": 600,
+  "very large": 700
+);

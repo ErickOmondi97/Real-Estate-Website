@@ -1,4 +1,5 @@
 @import './config';
+@import './header';
 
 * {
   margin: 0;
@@ -15,40 +16,5 @@
 body {
   background: $bg-color;
   color: $text-color;
-}
-
-header {
-  display: flex;
-  width: 100%;
-  position: fixed;
-  top: 0;
-  right: 0;
-  z-index: 1000;
-  align-items: center;
-  justify-content: space-between;
-  background: transparent;
-  padding: 30px 15%;
-  @include transition-ease;
-}
-
-.logo {
-  img{
-    height: auto;
-    width: 75%;
-  }
-}
-
-.navbar {
-  display: flex;
-
-  a {
-   display: inline-flex;
-   width: 100%;
-   padding: 10px 25px;
-   font-size: $p-font;
-   font-weight: 400;
-   color: $other-color;
-   @include transition-ease;
-  }
 }
 
