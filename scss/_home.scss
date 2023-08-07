@@ -1,0 +1,34 @@
+section {
+  padding: 80px 15% 70px;
+}
+
+.home {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  gap: 4.5rem;
+
+  &-text {
+    h1{
+      font-size: $h1-font;
+      line-height: 1.2;
+      margin-bottom: 20px;
+    }
+
+    p {
+      font-size: $p-font;
+      color: $other-color;
+      line-height: 30px;
+      margin-bottom: 2.5rem;
+    }
+  }
+}
+
+.h-search form {
+  position: relative;
+  width: 410px;
+  max-width: 100%;
+}
