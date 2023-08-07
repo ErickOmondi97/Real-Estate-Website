@@ -42,6 +42,7 @@ header {
 .h-btn {
   display: flex;
   align-items: center;
+
 }
 
 .h-btn2 {
@@ -51,5 +52,25 @@ header {
   color: $text-color;
   font-size: 18px;
   font-weight: map-get($font-weights, medium);
+  margin-left: 20px;
   @include transition-ease;
+
+  &:hover {
+    transform: translateX(-7px);
+  }
+}
+
+.h-btn1 {
+  color: $other-color;
+  font-weight: medium;
+  font-size: 18px;
+}
+
+#menu-icon {
+  color: $text-color;
+  font-size: 36px;
+  margin-left: 5px;
+  z-index: 10001;
+  cursor: pointer;
+  display: none;
 }

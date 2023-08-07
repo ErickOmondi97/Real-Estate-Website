@@ -46,7 +46,57 @@ header {
   color: #ffffff;
   font-size: 18px;
   font-weight: 500;
+  margin-left: 20px;
   transition: all 0.5s ease;
+}
+.h-btn2:hover {
+  transform: translateX(-7px);
+}
+
+.h-btn1 {
+  color: #d6d6d6;
+  font-weight: medium;
+  font-size: 18px;
+}
+
+#menu-icon {
+  color: #ffffff;
+  font-size: 36px;
+  margin-left: 5px;
+  z-index: 10001;
+  cursor: pointer;
+  display: none;
+}
+
+section {
+  padding: 80px 15% 70px;
+}
+
+.home {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  gap: 4.5rem;
+}
+.home-text h1 {
+  font-size: 5rem;
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+.home-text p {
+  font-size: 1.1rem;
+  color: #d6d6d6;
+  line-height: 30px;
+  margin-bottom: 2.5rem;
+}
+
+.h-search form {
+  position: relative;
+  width: 410px;
+  max-width: 100%;
 }
 
 * {
