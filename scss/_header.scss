@@ -1,0 +1,55 @@
+header {
+  display: flex;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 1000;
+  align-items: center;
+  justify-content: space-between;
+  background: transparent;
+  padding: 30px 15%;
+  @include transition-ease;
+}
+
+.logo {
+  img{
+    height: auto;
+    width: 75%;
+  }
+}
+
+.navbar {
+  display: flex;
+
+  li {
+    display: flex;
+
+    a {
+      padding: 10px 10px;
+      font-size: $p-font;
+      font-weight: 400;
+      color: $other-color;
+      @include transition-ease;
+
+      &:hover {
+        color: $text-color;
+      }
+    }
+  }
+}
+
+.h-btn {
+  display: flex;
+  align-items: center;
+}
+
+.h-btn2 {
+  display: inline-block;
+  padding: 10px 18px;
+  background: $main-color;
+  color: $text-color;
+  font-size: 18px;
+  font-weight: map-get($font-weights, medium);
+  @include transition-ease;
+}
